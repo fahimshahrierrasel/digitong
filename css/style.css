@@ -196,8 +196,7 @@ h6 {
 }
 
 #intro .intro-info h2 span {
-  color: #f7aa70;
-  text-decoration: underline;
+  color: #fff;
 }
 
 #intro .intro-info .btn-get-started,
@@ -1299,12 +1298,11 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  transition: 0.3s;
+  transition: all .2s ease-in-out;
 }
 
 #footer .footer-top .social-links a:hover {
-  background: rgb(196, 88, 5);
-  color: #fff;
+  transform: scale(1.2)
 }
 
 #footer .footer-top h4 {

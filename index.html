@@ -58,12 +58,12 @@
           <li><a href="#services">Why DigiTong</a></li>
           <!-- <li><a href="#portfolio">Portfolio</a></li> -->
           <!-- <li><a href="#team">Team</a></li> -->
-          <li class="drop-down"><a href="">Become</a>
+          <li class="drop-down"><a href="javascript:;">Become</a>
             <ul>
               <li><a href="#ownerform">A DigiTong Owner</a></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#footer">Contact Us</a></li>
         </ul>
       </nav><!-- .main-nav -->
 
@@ -83,7 +83,7 @@
       <div class="intro-info">
         <h2>Digitalizing the<br>grasroots of<br><span>Bangladesh</span><br></h2>
         <div>
-          <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          <a href="#ownerform"" class="btn-get-started scrollto">Get Started</a>
           <a href="#services" class="btn-services scrollto">Our Services</a>
         </div>
       </div>
@@ -597,22 +597,30 @@
                   <div class="validation"></div>
                 </div>
               </div>
-              <div class="form-group">
+              <!-- <div class="form-group">
                 <textarea class="form-control" name="owner_address" rows="3" data-rule="required"
                   data-msg="Please provide your address" placeholder="Your Address"></textarea>
                 <div class="validation"></div>
-              </div>
+              </div> -->
               <div class="form-group">
                   <textarea class="form-control" name="store_address" rows="3" data-rule="required"
                     data-msg="Please provide your store address" placeholder="Store Address"></textarea>
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="have_license" id="have_license">
-                      <label class="form-check-label" for="have_license">
+                    <!-- <div class="form-check"> -->
+                      <!-- <input class="form-check-input" type="checkbox" name="have_license" id="have_license"> -->
+                      <label class="form-check-label">
                         Do you have trade license?
-                      </label>
+                      </label><br>
+                    <!-- </div> -->
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="trade_license" id="trade-no" value="false">
+                      <label class="form-check-label" for="trade-no">Yes</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="trade_license" id="trade-yes" value="true">
+                      <label class="form-check-label" for="trade-yes">No</label>
                     </div>
                 </div>
               <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
@@ -626,7 +634,7 @@
     <!--==========================
       Contact Section
     ============================-->
-    <section id="contact">
+    <!-- <section id="contact">
       <div class="container-fluid">
 
         <div class="section-header">
@@ -663,7 +671,7 @@
               </div>
             </div>
 
-            <!-- <div class="form">
+            <div class="form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
               <form action="" method="post" role="form" class="contactForm">
@@ -687,13 +695,14 @@
                 </div>
                 <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
               </form>
-            </div> -->
+            </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- #contact -->
+    </section> -->
+    <!-- #contact -->
 
   </main>
 
@@ -736,10 +745,10 @@
 
             <div class="social-links">
               <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
-              <a href="https://www.facebook.com/digitongstores/" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.facebook.com/digitongstores/" class="facebook" style="background: #4267b2;"><i class="fa fa-facebook"></i></a>
               <!-- <a href="#" class="instagram"><i class="fa fa-instagram"></i></a> -->
               <!-- <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a> -->
-              <a href="https://www.linkedin.com/company/14674590/admin/" class="linkedin"><i
+              <a href="https://www.linkedin.com/company/14674590/admin/" class="linkedin" style="background: #0077B5;"><i
                   class="fa fa-linkedin"></i></a>
             </div>
 
